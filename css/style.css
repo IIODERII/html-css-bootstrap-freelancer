@@ -3,3 +3,30 @@
     --my-color-secondary: #1abc9c ;
     --my-color-footer:#3a546d ;
 }
+
+.my-bg-primary{
+    background-color: var(--my-color-primary);
+}
+
+.my-bg-secondary{
+    background-color: var(--my-color-secondary);
+}
+
+.my-bg-footer{
+    background-color: var(--my-color-footer);
+}
+
+.hamburger-menu a:hover{
+    text-decoration: underline!important;
+}
+
+@media screen and (max-width: 768px){
+    .hamburger-menu:hover ul{
+        display: block!important;
+        position: absolute;
+        top: 69%;
+        right: 0;
+        width: 30%;
+        text-align: end;
+    }
+}
