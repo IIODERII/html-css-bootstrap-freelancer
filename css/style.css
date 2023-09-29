@@ -16,8 +16,36 @@
     background-color: var(--my-color-footer);
 }
 
+img{
+    width: 100%;
+}
+
 .hamburger-menu a:hover{
     text-decoration: underline!important;
+}
+
+#hero .container{
+    padding-top: 100px;
+}
+
+.avatar-container{
+    max-width: 260px;
+}
+
+.star{
+    position: relative;
+    
+}
+
+.line{
+    height: 3px;
+}
+
+.fa-star{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 @media screen and (max-width: 768px){
