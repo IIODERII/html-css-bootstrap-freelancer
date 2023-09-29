@@ -60,6 +60,24 @@ img{
     transition: all 0.3s;
 }
 
+.hover-underline:hover{
+    text-decoration: underline;
+} 
+
+footer .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 35px;
+    height: 35px;
+}
+
+footer .icons:hover{
+    background-color: var(--my-color-primary);
+    transition: all 0.2s;
+}
+
 @media screen and (max-width: 768px){
     .hamburger-menu:hover ul{
         display: block!important;
@@ -68,5 +86,9 @@ img{
         right: 0;
         width: 30%;
         text-align: end;
+    }
+
+    footer h3{
+        font-size: 1.25rem!important;
     }
 }
