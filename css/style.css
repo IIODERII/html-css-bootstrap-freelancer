@@ -16,6 +16,14 @@
     background-color: var(--my-color-footer);
 }
 
+.my-text-primary{
+    color: var(--my-color-primary);
+}
+
+.my-text-secondary{
+    color: var(--my-color-secondary);
+}
+
 img{
     width: 100%;
 }
@@ -41,6 +49,15 @@ img{
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.border-bot{
+    border-bottom: 1px solid lightgray!important;
+}
+
+.primary-hov:hover{
+    background-color: #0f6f5c;
+    transition: all 0.3s;
 }
 
 @media screen and (max-width: 768px){
