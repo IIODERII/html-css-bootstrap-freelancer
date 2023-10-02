@@ -55,10 +55,6 @@ img{
     border-bottom: 1px solid lightgray!important;
 }
 
-.primary-hov:hover{
-    background-color: #0f6f5c;
-    transition: all 0.3s;
-}
 
 .hover-underline:hover{
     text-decoration: underline;
